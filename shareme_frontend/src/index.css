@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Now lets add default styles to the application */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* to hide the scroll bar and build a new one */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none; 
+}
